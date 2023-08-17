@@ -83,8 +83,12 @@ REST_KNOX = {
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd8sbeuundmkr0e',
+        'USER': 'sncyffakryyfzv',
+        'PASSWORD': '5bef7f0b27a61f22956118e058215c472525ec8dcbd0246b8d61cf97b93f87fc',
+        'HOST': 'ec2-52-205-171-232.compute-1.amazonaws.com',
+        'PORT': '5432'
     }
 }
 
