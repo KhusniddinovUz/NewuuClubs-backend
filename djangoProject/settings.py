@@ -13,7 +13,7 @@ SECRET_KEY = 'django-insecure-5r^k(e_!13_eh*!+p$hd=q!*h+qcp%01zss**!(5=e(-678lw*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["newuuclubs-backend-edb9a496ad39.herokuapp.com", "127.0.0.1"]
 
 # Application definition
 
