@@ -9,6 +9,8 @@ djangorestframework = "*"
 django-rest-knox = "*"
 drf-standardized-errors = "*"
 pillow = "*"
+gunicorn = "*"
+whitenoise = "*"
 
 [dev-packages]
 
